@@ -1,0 +1,78 @@
+.barra_menus{ /*Modifica a las etiquetas con la clase mencionada*/
+	overflow: hidden;
+	background-color: rgba(100,100,100,0.7);
+	font-family: sans-serif;
+}
+.barra_menus a{/*Modifica a las etiquetas con la clase mencionada*/
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.menu_desplegable{/*Modifica a las etiquetas con la clase mencionada*/
+	float: left;
+	overflow: hidden;
+}
+.menu_desplegable, .boton_desplegar{/*Modifica a las etiquetas con la clase mencionada*/
+	cursor: pointer;
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 7px 16px;
+	background-color: rgba(0,0,0,0);
+	font-family: inherit;
+	margin: 0;
+}
+.barra_menus a:hover, .menu_desplegable:hover, .boton_desplegar:hover{/*Modifica a las etiquetas con la clase mencionada*/
+	background-color: rgba(200,0,100,0.9);
+}
+.contenido_desplegable{/*Modifica a las etiquetas con la clase mencionada*/
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.contenido_desplegable a{/*Modifica a las etiquetas con la clase mencionada*/
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+.contenido_desplegable a:hover{/*Modifica a las etiquetas con la clase mencionada*/
+	background-color: #ddd;
+}
+.mostrar{/*Modifica a las etiquetas con la clase mencionada*/
+	display: block;
+}
+html{/*Lanza la imagen de fondo*/
+background:url('POO.jpg') no-repeat;
+min-height: 100%;
+background-size: cover;
+}
+.contenedor{
+	width: 98%;
+	margin: auto;
+}
+footer .contenedor{
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 25px;
+}
+section{
+	width: 100%;
+	margin-bottom: 25px;
+}
+#bienvenidos {
+	text-align: center;
+}
+#menu-bar:cheked~.menu{
+	transform: translateX(0%) ;
+}

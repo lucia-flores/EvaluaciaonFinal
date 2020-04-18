@@ -1,0 +1,33 @@
+.momento{
+	width: 700px;
+	height: 300px;
+	border: 4px solid cyan;
+	margin: auto;
+
+	background-size: 100% 100%;
+
+	animation: momento 10s infinite;
+	animation-duration: alternate;
+}
+@keyframes momento{
+	0%, 30%{
+     background-image: url(1.jpg);
+	}
+	31%, 65%{
+		opacity: 0.1;
+	}
+	35%, 69%{
+		 background-image: url(2.jpg);
+		 opacity: 1;
+	}
+	66%, 69%{
+		opacity: 0.1;
+	}
+	70%, 100%{
+      opacity: 1;
+	
+	
+		background-image: url(3.jpg);
+		
+	}
+}
